@@ -25,7 +25,7 @@ object UISpecificUtils {
      */
 
     //for edge-to-edge display Android 15+
-    fun View.addSystemWindowInsetToPadding(
+    fun View.addSystemWindowInsetToPaddingListener(
         top: Boolean = false,
         bottom: Boolean = false
     ) {
